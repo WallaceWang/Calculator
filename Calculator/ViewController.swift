@@ -222,7 +222,7 @@ class ViewController: UIViewController {
             displayInputLabel.text = ""
             continueInput = true
         }
-        if Double(displayInputLabel.text!) == 0 { //如果先输入0则无效
+        if displayInputLabel.text! == "0" { //如果先输入0则无效
             displayInputLabel.text = ""
         }
         displayInputLabel.text? += "9"
@@ -233,7 +233,7 @@ class ViewController: UIViewController {
             displayInputLabel.text = ""
             continueInput = true
         }
-        if Double(displayInputLabel.text!) == 0 {
+        if displayInputLabel.text! == "0" {
             displayInputLabel.text = ""
         }
         displayInputLabel.text? += "8"
@@ -243,7 +243,7 @@ class ViewController: UIViewController {
             displayInputLabel.text = ""
             continueInput = true
         }
-        if Double(displayInputLabel.text!) == 0 {
+        if displayInputLabel.text! == "0" {
             displayInputLabel.text = ""
         }
         displayInputLabel.text? += "7"
@@ -253,7 +253,7 @@ class ViewController: UIViewController {
             displayInputLabel.text = ""
             continueInput = true
         }
-        if Double(displayInputLabel.text!) == 0 {
+        if displayInputLabel.text! == "0" {
             displayInputLabel.text = ""
         }
         displayInputLabel.text? += "6"
@@ -263,7 +263,7 @@ class ViewController: UIViewController {
             displayInputLabel.text = ""
             continueInput = true
         }
-        if Double(displayInputLabel.text!) == 0 {
+        if displayInputLabel.text! == "0" {
             displayInputLabel.text = ""
         }
         displayInputLabel.text? += "5"
@@ -273,7 +273,7 @@ class ViewController: UIViewController {
             displayInputLabel.text = ""
             continueInput = true
         }
-        if Double(displayInputLabel.text!) == 0 {
+        if displayInputLabel.text! == "0" {
             displayInputLabel.text = ""
         }
         displayInputLabel.text? += "4"
@@ -283,7 +283,7 @@ class ViewController: UIViewController {
             displayInputLabel.text = ""
             continueInput = true
         }
-        if Double(displayInputLabel.text!) == 0 {
+        if displayInputLabel.text! == "0" {
             displayInputLabel.text = ""
         }
         displayInputLabel.text? += "3"
@@ -293,7 +293,7 @@ class ViewController: UIViewController {
             displayInputLabel.text = ""
             continueInput = true
         }
-        if Double(displayInputLabel.text!) == 0 {
+        if displayInputLabel.text! == "0" {
             displayInputLabel.text = ""
         }
         displayInputLabel.text? += "2"
@@ -303,7 +303,7 @@ class ViewController: UIViewController {
             displayInputLabel.text = ""
             continueInput = true
         }
-        if Double(displayInputLabel.text!) == 0 {
+        if displayInputLabel.text! == "0" {
             displayInputLabel.text = ""
         }
         displayInputLabel.text? += "1"
